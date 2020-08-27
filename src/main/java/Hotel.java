@@ -17,4 +17,12 @@ public class Hotel {
     public int bedroomCount() {
         return this.bedrooms.size();
     }
+
+    public void checkIn(Room room, Guest guest1) {
+        room.addGuest(guest1);
+    }
+
+    public void checkOut(Room room, Guest guest1) {
+        room.removeGuest(guest1);
+    }
 }

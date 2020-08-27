@@ -8,6 +8,7 @@ import static org.junit.Assert.assertEquals;
 public class HotelTest {
 
     Hotel hotel;
+    Guest guest1;
     Bedroom bedroom1;
     Bedroom bedroom2;
     Bedroom bedroom3;
@@ -15,6 +16,7 @@ public class HotelTest {
     ConferenceRoom conferenceRoom2;
     ArrayList<Bedroom> bedrooms;
     ArrayList<ConferenceRoom> conferenceRooms;
+
 
     @Before
     public void before() {
@@ -31,6 +33,8 @@ public class HotelTest {
         bedrooms.add(bedroom2);
         bedrooms.add(bedroom3);
 
+        guest1 = new Guest("John Doe");
+
         conferenceRooms.add(conferenceRoom1);
         conferenceRooms.add(conferenceRoom2);
         hotel = new Hotel(bedrooms, conferenceRooms);
@@ -45,5 +49,34 @@ public class HotelTest {
     public void canGetNumberOfConferenceRooms() {
         assertEquals(2, hotel.conferenceRoomCount());
     }
+
+    @Test
+    public void canCheckInGuestIntoBedroom() {
+        hotel.checkIn(bedroom1, guest1);
+        assertEquals(1, bedroom1.getGuestCount());
+    }
+
+
+    @Test
+    public void canCheckOutGuestFromBedroom() {
+        hotel.checkIn(bedroom1, guest1);
+        hotel.checkOut(bedroom1, guest1);
+        assertEquals(0, bedroom1.getGuestCount());
+    }
+
+    @Test
+    public void canCheckInGuestIntoConferenceRoom() {
+        hotel.checkIn(conferenceRoom1, guest1);
+        assertEquals(1, conferenceRoom1.getGuestCount());
+    }
+
+
+    @Test
+    public void canCheckOutGuestFromConferenceRoom() {
+        hotel.checkIn(conferenceRoom1, guest1);
+        hotel.checkOut(conferenceRoom1, guest1);
+        assertEquals(0, conferenceRoom1.getGuestCount());
+    }
+
 
 }
