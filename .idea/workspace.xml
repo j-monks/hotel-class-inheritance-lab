@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f30e68e-06ad-4276-914a-c8ce95d2d3b3" name="Default Changelist" comment="" />
+    <list default="true" id="2f30e68e-06ad-4276-914a-c8ce95d2d3b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bedroom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BedroomTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +14,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -36,7 +41,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.BedroomTest">
+    <configuration name="BedroomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CCTowersLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BedroomTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GuestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CCTowersLab" />
       <option name="PACKAGE_NAME" value="" />
@@ -48,6 +62,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BedroomTest" />
         <item itemvalue="JUnit.GuestTest" />
       </list>
     </recent_temporary>
@@ -66,10 +81,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2698" y="263" key="#com.intellij.ide.util.MemberChooser" timestamp="1598522577096">
+    <state x="2698" y="263" key="#com.intellij.ide.util.MemberChooser" timestamp="1598523848843">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="2698" y="263" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1598522577096" />
+    <state x="2698" y="263" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1598523848843" />
     <state width="908" height="304" key="GridCell.Tab.0.bottom" timestamp="1598522806284">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
