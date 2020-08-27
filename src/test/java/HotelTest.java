@@ -2,6 +2,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 import static org.junit.Assert.assertEquals;
 
@@ -13,16 +14,21 @@ public class HotelTest {
     Bedroom bedroom1;
     Bedroom bedroom2;
     Bedroom bedroom3;
+    DiningRoom diningRoom1;
+    DiningRoom diningRoom2;
     ConferenceRoom conferenceRoom1;
     ConferenceRoom conferenceRoom2;
     ArrayList<Bedroom> bedrooms;
     ArrayList<ConferenceRoom> conferenceRooms;
+    HashMap<String, DiningRoom> diningRooms;
+
 
 
     @Before
     public void before() {
         bedrooms = new ArrayList<Bedroom>();
         conferenceRooms = new ArrayList<ConferenceRoom>();
+        diningRooms = new HashMap<String, DiningRoom>();
         booking = new Booking(bedroom1, 2);
 
         bedroom1 = new Bedroom(1, RoomType.SINGLE, 120.99);
@@ -30,6 +36,9 @@ public class HotelTest {
         bedroom3 = new Bedroom(3, RoomType.FAMILY, 120.99);
         conferenceRoom1 = new ConferenceRoom(100, "The Hudson");
         conferenceRoom2 = new ConferenceRoom(50, "The Swan");
+        diningRoom1 = new DiningRoom(30, "The Rose");
+        diningRoom2 = new DiningRoom(60, "The Oxe");
+        diningRooms.put(diningRoom1.getName(), diningRoom1);
 
         bedrooms.add(bedroom1);
         bedrooms.add(bedroom2);
