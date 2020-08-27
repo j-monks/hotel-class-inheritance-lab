@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f30e68e-06ad-4276-914a-c8ce95d2d3b3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Booking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BookingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DiningRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DiningRoomTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bedroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bedroom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BedroomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BedroomTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BookingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BookingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/HotelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HotelTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Hotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Hotel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/HotelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HotelTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Bedroom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Bedroom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BedroomTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BedroomTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BookingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BookingTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/HotelTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +52,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager" selected="JUnit.HotelTest">
+  <component name="RunManager" selected="JUnit.DiningRoomTest">
     <configuration name="BedroomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CCTowersLab" />
       <option name="PACKAGE_NAME" value="" />
@@ -76,6 +80,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DiningRoomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CCTowersLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DiningRoomTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HotelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CCTowersLab" />
       <option name="PACKAGE_NAME" value="" />
@@ -85,23 +98,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HotelTest.canGetNumberOfBedrooms" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CCTowersLab" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HotelTest" />
-      <option name="METHOD_NAME" value="canGetNumberOfBedrooms" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HotelTest" />
-        <item itemvalue="JUnit.BookingTest" />
-        <item itemvalue="JUnit.HotelTest.canGetNumberOfBedrooms" />
+        <item itemvalue="JUnit.DiningRoomTest" />
         <item itemvalue="JUnit.ConferenceTest" />
+        <item itemvalue="JUnit.BookingTest" />
         <item itemvalue="JUnit.BedroomTest" />
+        <item itemvalue="JUnit.HotelTest" />
       </list>
     </recent_temporary>
   </component>
@@ -119,26 +122,26 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2698" y="263" key="#com.intellij.ide.util.MemberChooser" timestamp="1598535159618">
+    <state x="2698" y="263" key="#com.intellij.ide.util.MemberChooser" timestamp="1598538125544">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="2698" y="263" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1598535159618" />
-    <state width="1104" height="304" key="GridCell.Tab.0.bottom" timestamp="1598536198703">
+    <state x="2698" y="263" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1598538125544" />
+    <state width="1104" height="304" key="GridCell.Tab.0.bottom" timestamp="1598536706563">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1104" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1598536198703" />
-    <state width="1104" height="304" key="GridCell.Tab.0.center" timestamp="1598536198700">
+    <state width="1104" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1598536706563" />
+    <state width="1104" height="304" key="GridCell.Tab.0.center" timestamp="1598536706561">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1104" height="304" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1598536198700" />
-    <state width="1104" height="304" key="GridCell.Tab.0.left" timestamp="1598536198699">
+    <state width="1104" height="304" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1598536706561" />
+    <state width="1104" height="304" key="GridCell.Tab.0.left" timestamp="1598536706559">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1104" height="304" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1598536198699" />
-    <state width="1104" height="304" key="GridCell.Tab.0.right" timestamp="1598536198702">
+    <state width="1104" height="304" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1598536706559" />
+    <state width="1104" height="304" key="GridCell.Tab.0.right" timestamp="1598536706562">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1104" height="304" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1598536198702" />
+    <state width="1104" height="304" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1598536706562" />
     <state width="1104" height="375" key="GridCell.Tab.1.bottom" timestamp="1598535922176">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>

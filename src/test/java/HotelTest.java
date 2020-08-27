@@ -25,9 +25,9 @@ public class HotelTest {
         conferenceRooms = new ArrayList<ConferenceRoom>();
         booking = new Booking(bedroom1, 2);
 
-        bedroom1 = new Bedroom(1, RoomType.SINGLE);
-        bedroom2 = new Bedroom(2, RoomType.DOUBLE);
-        bedroom3 = new Bedroom(3, RoomType.FAMILY);
+        bedroom1 = new Bedroom(1, RoomType.SINGLE, 120.99);
+        bedroom2 = new Bedroom(2, RoomType.DOUBLE,120.99);
+        bedroom3 = new Bedroom(3, RoomType.FAMILY, 120.99);
         conferenceRoom1 = new ConferenceRoom(100, "The Hudson");
         conferenceRoom2 = new ConferenceRoom(50, "The Swan");
 

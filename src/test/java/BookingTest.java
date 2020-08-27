@@ -10,7 +10,7 @@ public class BookingTest {
 
     @Before
     public void before() {
-        bedroom = new Bedroom(22, RoomType.TWIN);
+        bedroom = new Bedroom(22, RoomType.TWIN, 120.99);
         booking = new Booking(bedroom, 2);
     }
 
